@@ -1,0 +1,24 @@
+{
+  "name": "make-diary",
+  "version": "1.0.0",
+  "description": "ChatGPTによる架空の日記生成Slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAKUA0820/make-diary.git"
+  },
+  "author": "sakua(sakua.create@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAKUA0820/make-diary/issues"
+  },
+  "homepage": "https://github.com/SAKUA0820/make-diary#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
